@@ -1,0 +1,185 @@
+html, body{
+    padding: 0;
+	margin: 0;
+	font-family: 'Roboto';
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul, li{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul{
+   display: flex;
+   gap: 115px; 
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 26px;
+}
+.line{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 200%;
+    width: 100%;
+    background: #252323;
+    z-index: 10;
+}
+.menu li{
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 10px 0 10px;
+}
+
+.menu li a{
+   color: #000;
+   padding-bottom: 89px;
+}
+.btn-zakaz{
+    color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    width: 100px;
+    background-color: #030305;
+    display: block;
+    margin-top: 42px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    margin-top: 42px;
+    padding: 10px 20px 10px 20px;
+    padding: 20px;
+    gap: 15px;
+    width: 334px;
+    text-align: center;
+}
+.now{
+    padding-top: 105px;
+}
+h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    padding-bottom: 40px;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    padding-bottom: 40px;
+}
+nav img{
+    margin-right: 116px;
+}
+main{
+    background: url(../img/plov.png);
+    height: 705px;
+}
+.proff{
+    padding-top: 100px;
+}
+span{
+    font-weight: bolder;
+}
+h3{
+    font-weight: 700px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 150%;
+    padding-bottom: 17px;
+}
+.detalis{
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    justify-content: center;
+    
+}
+.cars-block{
+    width: 400px;
+    padding-top: 40px;
+}
+.detalis.img{
+    padding-top: 10px;
+}
+.block{
+    display: flex;
+}
+.btn-zakaz{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    background-color: #000000;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    margin-top: -25px;
+    padding: 15px 30px;
+    gap: 15px;
+    width: 384px;
+}
+.welly{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    padding-bottom: 40px;
+    padding-top: 100px;
+}
+.name{
+	border:3px solid #5D5D5F;
+    color: #453f3f;
+    padding: 10px 20px 10px 20px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    line-height: 25px;
+    margin: 0.5rem;
+}
+.fame{
+	border:3px solid #5D5D5F;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    width: 350px;
+    font-weight: 700px;
+    margin: 0 auto;
+    background-color: #000000;
+    line-height: 25px;
+    margin: 0.5rem;
+
+}
+.fort{
+    padding-top: 60px;
+}
+.rolls{
+    display: flex;
+}
+.foot{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    border-top: 1px solid rgb(107, 105, 105);
+    
+}
+
+footer p{
+    padding: 0;
+}
+header{
+    border-bottom: 1px solid rgb(116, 111, 111);
+}
